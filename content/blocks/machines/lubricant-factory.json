@@ -1,0 +1,31 @@
+name: Lubricant Factory
+description: Creates lubricant from petroleum.
+type: GenericCrafter
+category: crafting
+health: 3760
+craftTime: 600
+size: 3
+research: oil-processing-barrel-factory
+consumes: {
+	items: {
+		items: [
+			empty-barrel/1
+		]
+	}
+	liquid: {
+		liquid: petroleum
+		amount: 1
+	}
+	power: 0.25
+}
+outputItem: {
+	item: lubricant-barrel
+	amount: 1
+}
+requirements: [
+	copper/1200
+	lead/800
+	titanium/600
+	silicon/500
+	plastic/100
+]

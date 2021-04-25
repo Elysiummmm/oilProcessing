@@ -1,0 +1,8 @@
+name: Bauxite
+description: Can be smelted into aluminium and contains little amounts of thorium.
+color: c7681a
+type: material
+explosiveness: 0
+flammability: 0
+radioactivity: 0.1
+hardness: 2

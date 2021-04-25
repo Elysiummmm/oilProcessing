@@ -1,0 +1,8 @@
+name: Heavy oil barrel
+research: oil-processing-oil-refinery
+cost: 8
+radioactivity: 0
+flammability: 0.4
+explosiveness: 0.3
+type: material
+color: 545454

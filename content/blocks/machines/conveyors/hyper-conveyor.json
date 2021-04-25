@@ -1,0 +1,14 @@
+name: Hyper Conveyor Mk. 1
+description: Slightly faster as the titanium conveyor.
+type: Conveyor
+category: distribution
+health: 400
+size: 1
+rotate: true
+research: oil-processing-lubricant-factory
+speed: 0.13
+requirements: [
+	copper/8
+	lead/4
+	lubricant-barrel/1
+]

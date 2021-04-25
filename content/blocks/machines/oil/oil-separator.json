@@ -1,0 +1,27 @@
+name: Petroleum Separator
+description: Separates petroleum into heavy oil and light oil and creates sludge as byproduct.
+type: Separator
+category: crafting
+health: 3600
+size: 2
+research: oil-processing-oil-refinery
+craftTime: 1
+consumes: {
+	liquid: {
+		liquid: petroleum
+		amount: 0.5
+	}
+	power: 1
+}
+results: [
+	petroleum-barrel/2
+	sludge-barrel/1
+	heavy-oil-barrel/2
+	light-oil-barrel/2
+]
+requirements: [
+	copper/800
+	titanium/400
+	silicon/260
+	graphite/200
+]

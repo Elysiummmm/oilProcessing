@@ -1,0 +1,27 @@
+name: Boiler
+description: Heats up water to create steam.
+type: GenericCrafter
+category: crafting
+health: 3480
+size: 3
+research: mechanical-pump
+consumes: {
+	liquid: {
+		liquid: water
+		amount: 1
+	}
+	items: {
+		items: [
+			coal/1
+		]
+	}
+}
+outputLiquid: {
+	liquid: steam
+	amount: 30
+}
+requirements: [
+	copper/1200
+	lead/800
+	silicon/500
+]

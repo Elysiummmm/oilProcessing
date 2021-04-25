@@ -1,0 +1,32 @@
+name: Plutonium Reactor
+description: Creates a notable amount of power using plutonium. Will explode with extreme power when not cooled correctly.
+type: NuclearReactor
+category: power
+health: 7600
+size: 4
+research: laser-drill
+itemDuration: 600
+heating: 0.1
+explosionRadius: 160
+explosionDamage: 5400
+coolantPower: 0.4
+powerProduction: 72
+consumes: {
+	items: {
+		items: [
+			plutonium-ingot/1
+		]
+	}
+	liquid: {
+		liquid: cryofluid
+		amount: 0.3
+	}
+}
+requirements: [
+	copper/5000
+	lead/3000
+	titanium/1000
+	silicon/800
+	plastic/250
+	aluminium/500
+]

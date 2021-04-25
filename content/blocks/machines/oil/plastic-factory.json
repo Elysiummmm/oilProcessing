@@ -1,0 +1,31 @@
+name: Plastic Factory
+description: Creates plastic.
+type: GenericCrafter
+category: crafting
+health: 2700
+size: 3
+research: spore-press
+consumes: {
+	items: {
+		items: [
+			coal/2
+			plastanium/2
+		]
+	}
+	liquid: {
+		liquid: oil
+		amount: 0.25
+	}
+	power: 3
+}
+outputItem: {
+	item: plastic
+	amount: 4
+}
+requirements: [
+	copper/1000
+	lead/700
+	titanium/300
+	silicon/300
+	plastanium/100
+]

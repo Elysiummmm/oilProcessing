@@ -1,0 +1,9 @@
+name: Zeolite
+description: Catalyst for heavy oil cracking.
+research: oil-processing-zeolite-mixer
+cost: 12
+radioactivity: 0
+flammability: 0
+explosiveness: 0
+type: material
+color: e8e8e8

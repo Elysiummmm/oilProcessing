@@ -1,0 +1,17 @@
+name: Liquid Tank Mk. 2
+description: Better liquid tank.
+type: LiquidRouter
+health: 6000
+size: 5
+acceptsLiquid: true
+hasLiquids: true
+outputsLiquid: true
+category: liquid
+liquidCapacity: 2500
+requirements: [
+	copper/1700
+	lead/1700
+	metaglass/1400
+	plastic/400
+	silicon/100
+]

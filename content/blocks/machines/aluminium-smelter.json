@@ -1,0 +1,29 @@
+name: Aluminium Smelter
+description: Smelts aluminium from bauxite with thorium as byproduct sometimes.
+type: Separator
+category: crafting
+health: 2450
+size: 3
+research: pneumatic-drill
+craftTime: 160
+consumes: {
+	items: {
+		items: [
+			bauxite/4
+			coal/1
+		]
+	}
+	power: 3
+}
+results: [
+	aluminium/20
+	titanium/5
+	thorium/1
+]
+requirements: [
+	copper/800
+	lead/500
+	titanium/230
+	silicon/170
+	plastic/100
+]

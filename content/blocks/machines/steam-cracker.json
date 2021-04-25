@@ -1,0 +1,28 @@
+name: Steam cracker
+description: Uses steam to crack heavy oil into light oil instead of using zeolite, but yields less.
+type: GenericCrafter
+category: crafting
+health: 3480
+size: 3
+research: boiler
+consumes: {
+	liquid: {
+		liquid: steam
+		amount: 1
+	}
+	items: {
+		items: [
+			heavy-oil-barrel/1
+		]
+	}
+}
+outputLiquid: {
+	liquid: light-oil
+	amount: 15
+}
+requirements: [
+	copper/1200
+	lead/800
+	silicon/500
+	titanium/100
+]

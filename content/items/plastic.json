@@ -1,0 +1,9 @@
+name: Plastic
+description: Artificial material with much uses.
+research: oil-processing-plastic-factory
+cost: 12
+radioactivity: 0
+flammability: 0.1
+explosiveness: 0.0
+type: material
+color: d1d1d1

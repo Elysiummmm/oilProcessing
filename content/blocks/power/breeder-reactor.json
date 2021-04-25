@@ -1,0 +1,25 @@
+name: Breeder reactor
+description: Converts thorium to plutonium.
+type: GenericCrafter
+category: crafting
+health: 4000
+size: 3
+research: pneumatic-drill
+craftTime: 1200
+consumes: {
+	items: {
+		items: [
+			thorium/1
+		]
+	}
+}
+outputItem: {
+	item: plutonium-ingot
+	amount: 1
+}
+requirements: [
+	copper/900
+	lead/900
+	titanium/500
+	silicon/360
+]

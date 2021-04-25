@@ -1,0 +1,9 @@
+name: Plutonium Ingot
+description: Artificial material with much uses.
+research: oil-processing-breeder-reactor
+cost: 16
+radioactivity: 1
+flammability: 0.1
+explosiveness: 0.6
+type: material
+color: b122ff

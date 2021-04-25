@@ -1,0 +1,17 @@
+name: Liquid Burner
+description: Can burn excess liquid.
+type: Incinerator
+category: crafting
+size: 2
+research: oil-processing-oil-separator
+health: 1500
+hasItems: false
+consumes: {
+	power: 0.25
+}
+requirements: [
+	copper/400
+	lead/400
+	titanium/20
+	plastic/20
+]

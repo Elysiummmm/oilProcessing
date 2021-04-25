@@ -1,0 +1,27 @@
+name: Barrel Factory
+description: Creates barrels from aluminium.
+type: GenericCrafter
+category: crafting
+health: 3760
+size: 3
+rotate: true
+research: oil-processing-oil-refinery
+consumes: {
+	items: {
+		items: [
+			aluminium/6
+		]
+	}
+	power: 3
+}
+outputItem: {
+	item: empty-barrel
+	amount: 1
+}
+requirements: [
+	copper/1200
+	lead/800
+	titanium/600
+	silicon/500
+	plastic/100
+]

@@ -1,0 +1,10 @@
+name: Heavy Oil
+color: 5a5e5b
+barColor: 5a5e5b
+flammability: 0.4
+temperature: 0.2
+heatCapacity: 0.2
+viscosity: 0.8
+explosiveness: 0.4
+effect: tarred
+research: oil-processing-oil-separator

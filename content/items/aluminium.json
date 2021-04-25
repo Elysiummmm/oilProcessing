@@ -1,0 +1,8 @@
+name: Aluminium
+description: Material used for barrels and zeolite.
+color: 808080
+type: material
+explosiveness: 0
+flammability: 0
+radioactivity: 0
+hardness: 2

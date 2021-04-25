@@ -1,0 +1,7 @@
+name: oil-processing
+displayName: Better Oil Processing
+author: CrowDev, blacksail
+description: Adds many new uses to oil, e.g. a refinery
+version: "0.3.0 - Plutonium Update"
+minGameVersion: "121"
+dependencies: ["multi-lib"]

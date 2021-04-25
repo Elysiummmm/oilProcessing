@@ -1,0 +1,26 @@
+name: Sludge Recycler
+description: Recycles sludge to crude oil.
+type: GenericCrafter
+category: crafting
+health: 3760
+size: 3
+research: oil-processing-oil-separator
+consumes: {
+	items: {
+		items: [
+			sludge-barrel/1
+		]
+	}
+	power: 0.5
+}
+outputLiquid: {
+	liquid: oil-processing-petroleum
+	amount: 15
+}
+requirements: [
+	copper/1200
+	lead/800
+	titanium/600
+	silicon/500
+	plastic/100
+]

@@ -1,0 +1,27 @@
+name: Plutonium Enricher
+description: Enriches plutonium using radiation from thorium.
+type: GenericCrafter
+category: crafting
+health: 4200
+size: 3
+research: oil-processing-breeder-reactor
+consumes: {
+	items: {
+		items: [
+			plutonium-ingot/2
+			thorium/3
+		]
+	}
+	power: 2
+}
+outputItem: {
+	item: plutonium-ingot
+	amount: 3
+}
+requirements: [
+	copper/2200
+	lead/1800
+	titanium/1200
+	silicon/800
+	aluminium/300
+]

@@ -1,0 +1,27 @@
+name: Zeolite Mixer
+description: Mixes zeolite from silicon and aluminium to use in cracking heavy oil.
+type: GenericCrafter
+category: crafting
+health: 2600
+size: 3
+research: oil-processing-aluminium-smelter
+consumes: {
+	items: {
+		items: [
+			silicon/2
+			aluminium/2
+		]
+	}
+	power: 0.5
+}
+outputItem: {
+	item: zeolite
+	amount: 1
+}
+requirements: [
+	copper/1000
+	lead/800
+	titanium/400
+	silicon/400
+	plastic/120
+]

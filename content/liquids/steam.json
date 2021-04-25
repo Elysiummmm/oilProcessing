@@ -1,0 +1,9 @@
+name: Steam
+color: ffffff
+barColor: ffffff
+flammability: 0
+temperature: 0.6
+heatCapacity: 0
+viscosity: 0
+explosiveness: 0
+research: oil-processing-boiler
