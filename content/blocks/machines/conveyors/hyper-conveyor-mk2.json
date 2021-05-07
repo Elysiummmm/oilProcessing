@@ -1,0 +1,15 @@
+name: Hyper Conveyor Mk. 2
+description: Slightly faster than the hyper conveyor mk. 1.
+type: Conveyor
+category: distribution
+health: 400
+size: 1
+rotate: true
+research: oil-processing-lubricant-factory
+speed: 0.18
+requirements: [
+	copper/11
+	lead/7,
+	plastic/5,
+	lubricant-barrel/2
+]
